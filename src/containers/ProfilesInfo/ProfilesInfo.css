@@ -1,0 +1,8 @@
+.MainContainer{
+    background-color:#EEEEEE;
+    border-top:1px solid #e6e6e6;
+}
+.ResultGrid{
+    padding:50px 0;
+    display: flex;
+}

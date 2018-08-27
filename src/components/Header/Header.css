@@ -1,0 +1,28 @@
+.Logo{
+    width: 140px;
+}
+.HeaderTop{
+    padding-top:5px ;
+}
+.HeaderStrip{
+    background-color: #5cb85c;
+    color: white;
+    margin: 5px auto;
+}
+.HeaderStrip ul{
+    list-style: none;
+    display: inline-block;
+}
+.HeaderStrip ul li:first-child{
+    padding-left: 0px;
+}
+.HeaderStrip ul li{
+    float: left;
+    color:#fff;
+    padding: 10px 15px 10px 15px;
+    font-weight: 600;
+    font-size: 1em;
+}
+.HeaderStrip ul li i{
+    padding-right: 10px;
+}

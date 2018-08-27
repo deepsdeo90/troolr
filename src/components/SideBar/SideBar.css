@@ -1,0 +1,21 @@
+.SideBar{
+     border-radius: 3px;
+     flex:1 0 0;
+}
+.SideBar ul{
+     list-style-type: none;
+
+ }
+.SideBar ul li{
+     background-color: #fff;
+     padding:30px;
+     font-weight: 600;
+     font-size: 1em;
+     color: #555;
+ }
+ 
+@media screen and (max-width: 700px) {
+    .SideBar{
+        display: none;
+    }
+  }

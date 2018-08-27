@@ -1,0 +1,20 @@
+.PrflCntrHeader{
+    padding: 30px 0;
+}
+.PrflCntrHeader h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.9em;
+}
+.PrflCntrHeader span{
+    color:#f0ad4e;    
+    font-size: .8em;
+    font-weight: 600;
+    font-style: italic;
+}
+.PrflCntrSortOpt{
+    padding-top: 20px;
+    width: 180px;
+}

@@ -1,0 +1,26 @@
+.Profiles{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin:-10px;
+    flex:4 0 0;
+
+}
+.Profiles>* {
+    flex-basis: 30%;
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .Profiles>*{
+        flex-basis: 45%;
+    }
+    .Profiles{
+        flex:3 0 0;
+    }
+  }  
+  @media screen and (max-width: 470px) {
+    .Profiles>*{
+        flex-basis: 100%;
+    }
+  }

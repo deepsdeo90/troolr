@@ -1,0 +1,95 @@
+article{
+    /*  flex-basis: 32%;*/
+      text-align: center;
+      border-radius: 3px;
+      background-color: #fff;
+  }
+article img{
+      width: 100%;
+}
+.Profile{
+    background-color: #fff;
+    padding: 15px 15px 20px;
+    text-align: left;
+}
+.Profile h3{
+    font-weight: 600;
+    font-size: 1.2em;
+    white-space: nowrap;
+    padding: 0px;
+    margin: 0px;
+}
+.Profile .author{
+    color: #666;
+    font-size: 1em;
+}
+.Author, .Location{
+    margin-bottom: 10px;
+}
+.ProfileBottom{
+    display:flex;
+
+}
+.RatingBox {
+    color: #f0f0f0;
+    flex: 1;
+     }
+  
+  .RatingStar{
+    font-size:25px;;
+    width: 10px;
+    height: 10px;
+    line-height: 20px;
+    padding: 0 .4rem;
+    position: relative;
+    display: block;
+    float:left;
+  }
+  
+  .FullStar:before {
+    color:#f2b01e;
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .EmptyStar:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .HalfStar:before {
+    color: #f2b01e;
+    content: "\2605";
+    width: 50%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .HalfStar:after {
+    content: '\2605';
+    position: absolute;
+    left: 1.5rem;
+    width: 50%;
+    text-indent: -1.5rem;
+    overflow: hidden;
+  }
+  button{
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    padding:5px 10px;
+    font-size: .9em;
+    font-weight: 600;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+  }
